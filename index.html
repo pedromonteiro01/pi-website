@@ -4,113 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
-
-
     <title>PI - Group 03</title>
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="banner-text">
+    <nav>
+        <div class="logo">Group 03</div>
+        <label for="btn" class="icon">
+            <span class="fa fa-bars"></span>
+        </label>
+        <input type="checkbox" id="btn">
         <ul>
-            <li><a href="#">Group 03</a></li>
-            <li><a href="#">Home</a></li>
-            <li><a href="#project">Project</a></li>
-            <li><a href="#team">Team</a></li>
-            <li><a href="#about">About</a></li>
+            <li><a href="">Home</a></li>
+            <li>
+                <label for="btn-1" class="show">Project <span class="fa fa-plus"></span></label>
+                <a href="">Project</a>
+                <input type="checkbox" id="btn-1">
+                <ul>
+                    <li><a href="">Page1</a></li>
+                    <li><a href="">Page2</a></li>
+                    <li><a href="">Page3</a></li>
+                </ul>
+            </li>
+            <li><a href="">Team</a></li>
+            <li><a href="">About</a></li>
         </ul>
-    </div>
-
-    <div class="banner-paragraph">
-        <h2>Welcome to our website</h2>
-    </div>
-
-    <div class="animation-area">
-        <ul class="box-area">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-    </div>
-
-    <div class="project" id="project">
-
-    </div>
-
-    <div class="team" id="team">
-        <div class="team-header">
-            <h2>Team</h2>
-        </div>
-        <ul>
-            <li>
-                <div class="team-member">
-                    <div class="team-member-image">
-                        <img src="img/pedro.jpg" alt="Pedro's photo">
-                    </div>
-                    <h3>Pedro Monteiro</h3>
-                    <h3 class="nmec">97484</h3>
-                    <p>pmapm@ua.pt</p>
-                    <div class="team-member-social">
-                        <i class="fab fa-linkedin" id="linkedin"></i>
-                        <i class="fab fa-github" id="github"></i>
-                        <i class="fab fa-facebook" id="facebook"></i>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <div class="team-member">
-                    <div class="team-member-image">
-                        <img src="img/eduardo.png" alt="Eduardo's photo">
-                    </div>
-                    <h3>Eduardo Fernandes</h3>
-                    <h3 class="nmec">98512</h3>
-                    <p>eduardofernandes@ua.pt</p>
-                    <div class="team-member-social">
-                        <a href=""><i class="fab fa-linkedin" id="linkedin"></i></a>
-                        <i class="fab fa-github" id="github"></i>
-                        <i class="fab fa-facebook" id="facebook"></i>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <div class="team-member">
-                    <div class="team-member-image">
-                        <img src="img/trigo.jpeg" alt="José's photo">
-                    </div>
-                    <h3>José Trigo</h3>
-                    <h3 class="nmec">98597</h3>
-                    <p>josetrigo@ua.pt</p>
-                    <div class="team-member-social">
-                        <i class="fab fa-linkedin" id="linkedin"></i>
-                        <i class="fab fa-github" id="github"></i>
-                        <i class="fab fa-facebook" id="facebook"></i>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <div class="team-member">
-                    <div class="team-member-image">
-                        <img src="img/andre.png" alt="Andrés's photo">
-                    </div>
-                    <h3>André Gomes</h3>
-                    <h3 class="nmec">97541</h3>
-                    <p>alg@ua.pt</p>
-                    <div class="team-member-social">
-                        <i class="fab fa-linkedin" id="linkedin"></i>
-                        <i class="fab fa-github" id="github"></i>
-                        <i class="fab fa-facebook" id="facebook"></i>
-                    </div>
-                </div>
-            </li>
-        </ul>
-    </div>
-
-    <section class="about" id="about">
-        <span>&copy; PI Group 3 - 2022</span>
-    </section>
+    </nav>
 </body>
 </html>
