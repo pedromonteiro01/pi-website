@@ -132,7 +132,7 @@ nav ul ul li a:hover{
 
 .card-body h1{
     font-size: 22px;
-    font-weight: 500;
+    font-weight: normal;
 }
 
 .card-body .card-nmec{
@@ -152,11 +152,8 @@ nav ul ul li a:hover{
     margin-top: 1rem;
 }
 
-.card-social a {
-    color: black;
-}
-
 .card-social i {
+    color: #000;
     font-size: 32px;
 }
 
