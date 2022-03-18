@@ -173,7 +173,7 @@ nav ul ul li a:hover{
 
 .project-documents th,
 .project-documents td{
-    padding: 1rem 4rem;
+    padding: 1.2rem 4rem;
     text-align: center;
     font-weight: normal;
     box-shadow:  0px 0px 9px 0px rgba(0,0,0,0.1);
@@ -223,6 +223,7 @@ nav ul ul li a:hover{
 
 .project-documents td i:hover{
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 .container {
