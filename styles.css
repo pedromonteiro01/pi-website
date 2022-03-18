@@ -11,6 +11,9 @@ html {
 
 nav {
     background: #1b1b1b;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 nav::after{
@@ -347,5 +350,13 @@ nav ul ul li a:hover{
         width: 80%;
         margin-left: 10%;
         margin-right: 10%;
+    }
+
+    .project-teachers{
+        flex-direction: column;
+    }
+
+    .project-teacher-info:nth-child(1){
+        margin-bottom: 4rem;
     }
 }
