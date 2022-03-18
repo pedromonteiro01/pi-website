@@ -94,6 +94,97 @@ nav ul ul li a:hover{
     display: none;
 }
 
+.project {
+    width: 90%;
+    margin: 50px auto;
+}
+
+.project-heading {
+    text-align: left;
+    font-size: 26px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.project-heading h1 {
+    font-weight: normal;
+    letter-spacing: 4px;
+}
+
+.project-content {
+    margin-left: 50px;
+}
+
+.project-content h2 {
+    font-weight: normal;
+}
+
+.project-teachers{
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0;
+}
+
+.teachers-heading {
+    text-align: left;
+    margin-top: 3rem;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+.teachers-heading h1 {
+    font-weight: normal;
+    letter-spacing: 3px;
+}
+
+.project-teacher-info{
+    margin: 0 6rem;
+    text-align: center;
+}
+
+.project-teacher-info img{
+    border-radius: 100%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.project-teacher-info h2 {
+    font-weight: normal;
+    font-size: 24px;
+    margin-bottom: 0.5rem;
+}
+
+.project-documents table,
+.project-documents th, 
+.project-documents td{
+    border: solid 1px #000;
+    font-weight: normal;
+}
+
+.project-documents th {
+    padding: 0.3rem;
+}
+
+.project-documents td{
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.project-documents td i {
+    color: #000;
+}
+
+.project-documents td i:hover{
+    transform: scale(1.1);
+}
+
+.project-documents table{
+    border-collapse: collapse;
+    width: 50%;
+    margin-top: 1rem;
+    margin-left: 50px;
+}
+
 .container {
     width: 90%;
     margin: 50px auto;
@@ -108,7 +199,7 @@ nav ul ul li a:hover{
 
 .heading h1 {
     font-weight: normal;
-    letter-spacing: 5px;
+    letter-spacing: 4px;
 }
 
 .row {
@@ -164,6 +255,19 @@ nav ul ul li a:hover{
 
 .fa-facebook {
     margin: 0 1.3rem;
+}
+
+.footer {
+    height: 5rem;
+    width: 100%;
+    background-color: #1b1b1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer span {
+    color: white;
 }
 
 @media all and (max-width: 960px) {
