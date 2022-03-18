@@ -105,6 +105,7 @@ nav ul ul li a:hover{
 .project-heading {
     text-align: left;
     font-size: 26px;
+    margin-top: 6rem;
     margin-bottom: 15px;
     text-transform: uppercase;
 }
@@ -157,20 +158,63 @@ nav ul ul li a:hover{
     margin-bottom: 0.5rem;
 }
 
-.project-documents table,
-.project-documents th, 
-.project-documents td{
-    border: solid 1px #000;
-    font-weight: normal;
+.project-documents{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
 }
 
-.project-documents th {
-    padding: 0.3rem;
+.project-documents table{
+    border-collapse: separate;
+    border-spacing: 0 15px;
+    margin-top: 1rem;
 }
 
+.project-documents th,
 .project-documents td{
-    padding: 0.5rem;
+    padding: 1rem 4rem;
     text-align: center;
+    font-weight: normal;
+    box-shadow:  0px 0px 9px 0px rgba(0,0,0,0.1);
+}
+
+.project-documents th{
+    background-color: #95A5A6;
+}
+
+.project-documents th:nth-child(1){
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.project-documents th:nth-child(3){
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.project-documents td:nth-child(1){
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.project-documents td:nth-child(3){
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.project-documents th:nth-child(1),
+.project-documents td:nth-child(1),
+.project-documents th:nth-child(2),
+.project-documents td:nth-child(2){
+    border-right: none;
+}
+
+.project-documents th:nth-child(2),
+.project-documents td:nth-child(2),
+.project-documents th:nth-child(3),
+.project-documents td:nth-child(3){
+    border-left: none;
 }
 
 .project-documents td i {
@@ -179,13 +223,6 @@ nav ul ul li a:hover{
 
 .project-documents td i:hover{
     transform: scale(1.1);
-}
-
-.project-documents table{
-    border-collapse: collapse;
-    width: 50%;
-    margin-top: 1rem;
-    margin-left: 50px;
 }
 
 .container {
@@ -350,6 +387,11 @@ nav ul ul li a:hover{
         width: 80%;
         margin-left: 10%;
         margin-right: 10%;
+    }
+
+    .project-documents th,
+    .project-documents td{
+        padding: 1rem;
     }
 
     .project-teachers{
