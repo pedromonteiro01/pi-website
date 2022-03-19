@@ -224,6 +224,7 @@ nav ul ul li a:hover{
 .project-documents td i:hover{
     transform: scale(1.1);
     cursor: pointer;
+    transition: all 0.05s ease-in-out;
 }
 
 .container {
