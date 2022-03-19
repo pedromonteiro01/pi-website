@@ -117,10 +117,20 @@ nav ul ul li a:hover{
 
 .project-content {
     margin-left: 50px;
+    text-align: center;
+    max-width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .project-content h2 {
     font-weight: normal;
+    font-size: 50px;
+    margin-bottom: 2rem;
+}
+
+.project-content p {
+    font-size: 20px;
 }
 
 .project-teachers{
@@ -389,6 +399,12 @@ nav ul ul li a:hover{
         width: 80%;
         margin-left: 10%;
         margin-right: 10%;
+    }
+
+    .project-content{
+        max-width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .project-documents th,
