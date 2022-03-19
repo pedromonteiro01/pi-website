@@ -268,7 +268,7 @@ nav ul ul li a:hover{
 .card {
     width: 20%;
     border-radius: 6px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     transition: 0.3s;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
