@@ -332,14 +332,14 @@ nav ul ul li a:hover{
     background-color: #000;
     color: white;
     padding: 0.8rem 2rem;
-    border-radius: 12px;
+    border-radius: 18px;
     border: solid 2px #000;
 }
 
 .doubt-section a:hover {
     background-color: #fff;
     color: #000;
-    transition: all 0.25s ease-in-out;
+    transition: all 0.27s ease-in-out;
 }
 
 .footer {
