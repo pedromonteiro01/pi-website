@@ -309,6 +309,39 @@ nav ul ul li a:hover{
     margin: 0 1.3rem;
 }
 
+.doubt-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.doubt-section h2 {
+    font-size: 30px;
+    margin-bottom: 0.5rem;
+}
+
+.doubt-section span {
+    color: rgb(88, 86, 86);
+    margin-bottom: 1.5rem;
+}
+
+.doubt-section a{
+    text-decoration: none;
+    background-color: #000;
+    color: white;
+    padding: 0.8rem 2rem;
+    border-radius: 12px;
+    border: solid 2px #000;
+}
+
+.doubt-section a:hover {
+    background-color: #fff;
+    color: #000;
+    transition: all 0.25s ease-in-out;
+}
+
 .footer {
     height: 5rem;
     width: 100%;
