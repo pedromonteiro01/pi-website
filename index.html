@@ -61,22 +61,22 @@
                     <tr>
                         <td>First Presentation</td>
                         <td>21/03/2022</td>
-                        <td><a href="./files/pi_presentation.pdf"><i class="far fa-download"></i></a></td>
+                        <td><button onclick='openLink("./files/pi_presentation.pdf")'><i class="far fa-download"></i></button></td>
                     </tr>
                     <tr>
                         <td>Calendar</td>
                         <td>21/03/2022</td>
-                        <td><a href="https://difficult-box-40e.notion.site/adcde0987f0f474cbf56b6e6739636fe?v=68afbab41bb444c7823ce249a24f5149"><i class="far fa-eye"></a></td>
+                        <td><button onclick='openLink("https://difficult-box-40e.notion.site/adcde0987f0f474cbf56b6e6739636fe?v=68afbab41bb444c7823ce249a24f5149")'><i class="far fa-eye"></i></button></td>
                     </tr>
                     <tr>
                         <td>Project Description</td>
                         <td>15/03/2022</td>
-                        <td><a href="./files/16-Sistema de Apoio à Criação da Distribuição do Serviço Docente_TomasSilva.pdf"><i class="far fa-download"></i></a></td>
+                        <td><button onclick='openLink("./files/16-Sistema de Apoio à Criação da Distribuição do Serviço Docente_TomasSilva.pdf")'><i class="far fa-download"></i></button></td>
                     </tr>
                     <tr>
                         <td>Website Code</td>
                         <td>21/03/2022</td>
-                        <td><a href="https://github.com/pedromonteiro01/pi-website"><i class="far fa-eye"></i></a></td>
+                        <td><button onclick='openLink("https://github.com/pedromonteiro01/pi-website")'><i class="far fa-eye"></i></button></td>
                     </tr>
                 </table>
             </div>
@@ -180,7 +180,7 @@
     <div class="doubt-section" id="contact">
         <h2>Any doubt?</h2>
         <span>Just send us a message!</span>
-        <button onclick="openLink()">Contact Us!</button>
+        <button onclick='openLink("https://forms.gle/td8h74cSUp2ywPRJA")'>Contact Us!</button>
         <!--<a href="https://forms.gle/td8h74cSUp2ywPRJA">Contact Us</a>-->
     </div>
 
@@ -189,8 +189,8 @@
     </div>
 
     <script>
-        function openLink() {
-            window.open("https://forms.gle/td8h74cSUp2ywPRJA");
+        function openLink(link) {
+            window.open(link);
         }
     </script>
 </body>

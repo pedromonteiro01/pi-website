@@ -231,6 +231,12 @@ nav ul ul li a:hover{
     border-left: none;
 }
 
+.project-documents td button{
+    border: none;
+    background: none;
+    font-size: 16px;
+}
+
 .project-documents td i {
     color: #000;
 }
