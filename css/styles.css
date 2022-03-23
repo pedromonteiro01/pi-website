@@ -331,19 +331,21 @@ nav ul ul li a:hover{
     margin-bottom: 1.5rem;
 }
 
-.doubt-section a{
+.doubt-section button{
     text-decoration: none;
+    font-size: 16px;
     background-color: #000;
     color: white;
-    padding: 0.8rem 2rem;
+    padding: 0.9rem 2rem;
     border-radius: 18px;
     border: solid 2px #000;
 }
 
-.doubt-section a:hover {
+.doubt-section button:hover {
+    cursor: pointer;
     background-color: #fff;
     color: #000;
-    transition: all 0.27s ease-in-out;
+    transition: all 0.31s ease-in-out;
 }
 
 .footer {
