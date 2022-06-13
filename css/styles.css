@@ -547,6 +547,8 @@ nav ul ul li a:hover{
     }
 
     .project-shadow {
+        width: 90%;
+        margin: 0 5%;
         font-family: 'KoHo', sans-serif;
         font-style: italic;
         position: absolute;
