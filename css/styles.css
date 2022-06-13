@@ -547,7 +547,16 @@ nav ul ul li a:hover{
     }
 
     .project-shadow {
-        display: none;
+        font-family: 'KoHo', sans-serif;
+        font-style: italic;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 170px;
+        font-weight: 900;
+        color: rgba(0, 0, 0, 0.05);
+        letter-spacing: 2rem;
     }
 
     .project-header {
