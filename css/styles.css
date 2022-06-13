@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,200;1,700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -99,7 +101,6 @@ nav ul ul li a:hover{
 
 .project-header {
     text-align: center;
-    margin: 10rem auto;
     max-width: 60%;
     margin-left: 20%;
     margin-right: 20%;
@@ -166,6 +167,19 @@ nav ul ul li a:hover{
     border-radius: 100%;
     object-fit: cover;
     margin-bottom: 1rem;
+}
+
+.heading hr {
+    color: #ccc;
+    min-width: 10%;
+    max-width: 10%;
+    margin: 0 45% 3rem 45%;
+}
+
+.project-header-desc {
+    text-transform: none;
+    text-align: center;
+    min-width: 100%;
 }
 
 .project-teacher-info h2 {
@@ -294,10 +308,30 @@ nav ul ul li a:hover{
     margin: 50px auto;
 }
 
+.project-shadow {
+    font-family: 'KoHo', sans-serif;
+    font-style: italic;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 650px;
+    font-weight: 900;
+    color: rgba(0, 0, 0, 0.05);
+    letter-spacing: 2rem;
+}
+
+.heading-content {
+    position: relative;
+}
+
 .heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     text-align: left;
     font-size: 24px;
-    margin-bottom: 50px;
     text-transform: uppercase;
 }
 
@@ -505,11 +539,17 @@ nav ul ul li a:hover{
         margin-right: 5%;
     }
 
+    .project-shadow {
+        display: none;
+    }
+
     .project-header {
+        text-transform: uppercase;
         max-width: 100%;
         margin-left: 0;
         margin-right: 0;
         font-size: 40px;
+        font-weight: bold;
     }
 
     .project-content p{
