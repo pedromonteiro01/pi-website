@@ -181,6 +181,11 @@ nav ul ul li a:hover{
     justify-content: space-between;
 }
 
+.project-goals-content-mobile {
+    margin-top: 4rem;
+    justify-content: space-around;
+}
+
 .project-goals-content p {
     margin-top: 1rem;
 }
@@ -525,6 +530,10 @@ nav ul ul li a:hover{
     }
 
     .project-goals-content-item {
-        margin-top: 1rem;
+        margin-top: 2rem;
+    }
+
+    .project-goals-content-mobile {
+        margin-top: 0;
     }
 }
