@@ -188,6 +188,13 @@ nav ul ul li a:hover{
     margin-bottom: 0.5rem;
 }
 
+.project-architecture-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
 .project-goalss {
     width: 100%;
 }
