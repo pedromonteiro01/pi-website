@@ -97,6 +97,17 @@ nav ul ul li a:hover{
     display: none;
 }
 
+.project-header {
+    text-align: center;
+    margin: 10rem auto;
+    max-width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-weight: normal;
+    font-size: 46px;
+    margin-bottom: 2rem;
+}
+
 .project {
     width: 90%;
     margin: 50px auto;
@@ -119,15 +130,6 @@ nav ul ul li a:hover{
     margin-left: 50px;
     text-align: center;
     max-width: 100%;
-}
-
-.project-content h2 {
-    max-width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
-    font-weight: normal;
-    font-size: 46px;
-    margin-bottom: 2rem;
 }
 
 .project-content p {
